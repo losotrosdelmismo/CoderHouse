@@ -1,0 +1,8 @@
+Habiendo probado los 2 motores de platilla. Si bien cada uno tiene sus ventajas y desventajas, me resulto
+mas comodo trabajar con ejs. Si bien pug es muy comodo y limpio para escribir codigo nuevo, es muy molesto
+para trasladar HTML previo ya que hay que formatearlo de cero al nuevo lenguaje, se presta a que haya muchos errores
+ya que la indentacion es totalmente distinta al HTML puro.
+En ejs se trabaja mas rapido ya que basta con copiar y pegar el HTML directamente. Lo unico nuevo que hay que incorporar son los tags propios 
+para incluir los partials y los condicionales de javascript. 
+Cada herramienta sirve para diferentes momentos pero ejs lo veo mas compatible cuando en un desarrollo no todos los
+miembros usan las mismas herramientas.
