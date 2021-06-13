@@ -1,0 +1,55 @@
+<%- include('./index')-%>
+
+    <body>
+        <style>
+            .table td, .table th {
+                vertical-align: middle;
+            }
+            h1 {
+                color: blue;
+            }
+            hr {
+                background-color: #ddd;
+            }
+            .jumbotron {
+                min-height: 100vh;
+            }
+        </style>
+
+
+        <div class="container mt-3">
+            <div class="jumbotron">
+                <h1 style="color:blue;">Ingrese datos</h1>
+                <br>
+
+                <form action="/api/productos/guardar" method="post">
+
+                    <div class="form-group">
+                        <label for="title"><b>title:</b></label>
+                        <input id="title" class="form-control" type="text" name="title">
+                    </div>
+                    <div class="form-group">
+                        <label for="price"><b>price:</b></label>
+                        <input id="price" class="form-control" type="text" name="price">
+                    </div>
+                    <div class="form-group">
+                        <label for="thumbnail"><b>thumbnail:</b></label>
+                        <input id="thumbnail" class="form-control" type="text" name="thumbnail">
+                    </div>
+
+
+                    <button class="btn btn-success mt-3 mb-5">Enviar</button>
+                </form>
+                <% if(hayProductos){ %>  
+                <h2 style="color:crimson;">Historial</h2>
+
+                <%- include('./table') -%>
+                <% } else{ %> 
+                    <h3 class="alert alert-danger">no se encontraron datos</h1>
+                    <% } %>
+            </div>
+        </div>
+        
+    </body>
+
+    </html>
