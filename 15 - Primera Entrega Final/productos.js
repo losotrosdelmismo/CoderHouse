@@ -1,0 +1,64 @@
+const { info } = require('console');
+const fs = require('fs');
+
+class Productos {
+
+    constructor(title, price, thumbnail, id, timeStamp, codigo, descripcion, stock){        
+        this.id = id,
+        this.timeStamp = timeStamp,
+        this.title = title,
+        this.descripcion = descripcion, 
+        this.codigo = codigo, 
+        this.thumbnail = thumbnail,
+        this.price = price,
+        this.stock = stock
+    }   
+   
+    async leer(lectura, operacion){
+        try{
+            if(operacion == 'productos')            
+            lectura = JSON.parse(await fs.promises.readFile('./productos.json'));        
+            if(operacion == 'mensajes')
+            lectura = JSON.parse(await fs.promises.readFile('./mensajes.txt'));                          
+            if(operacion == 'carrito')            
+            lectura = JSON.parse(await fs.promises.readFile('./carrito.txt'));
+            return lectura;
+        }
+        catch(error){
+            console.log('fallo en lectura')
+        }       
+                
+    }
+    
+
+   async guardar(data, producto){
+    try{
+   
+        data.push(producto);        
+        lectura = JSON.stringify(await fs.promises.writeFile('./productos.json', JSON.stringify(data, null, '\t')));                                                        
+        return data;                 
+        
+    }
+    catch(error){
+        console.log('fallo en guardar')
+    }       
+  }
+
+  async actualizarProductos(data, operacion){
+    try{  
+        if(operacion == 'productos')        
+        lectura = await fs.promises.writeFile('./productos.json', JSON.stringify(data, null, '\t'));
+        if(operacion == 'carrito') 
+        lectura = await fs.promises.writeFile('./carrito.txt', JSON.stringify(data, null, '\t'));                                                            
+        return data;                
+        
+    }
+    catch(error){
+        console.log('fallo en actualizar producto')
+    }       
+  }
+}
+
+// exporto una instancia de la clase
+module.exports = new Productos();
+
