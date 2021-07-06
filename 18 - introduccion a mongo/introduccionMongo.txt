@@ -1,0 +1,9 @@
+
+//creamos la base de datos
+use prueba
+//creamos la coleccion e insertamos los datos
+db.items.insert({nombre: "Fideos", categoria: "Harina", stock: 20})
+db.items.insert({nombre: "Leche", categoria: "Lacteos", stock: 30})
+db.items.insert({nombre: "Crema", categoria: "Lacteos", stock: 15})
+//listamos los datos creados en la coleccion
+db.items.find()
