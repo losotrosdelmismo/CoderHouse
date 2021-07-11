@@ -1,0 +1,69 @@
+//creamos la base de datos
+use ecommerce
+//creamos los 10 articulos en la coleccion productos
+db.productos.insert([
+    {nombre: "arroz", precio: 100}, 
+    {nombre: "fideos", precio: 120}, 
+    {nombre: "canelones", precio: 580},
+    {nombre: "sorrentinos", precio: 800},
+    {nombre: "ravioles", precio: 200},
+    {nombre: "pizza", precio: 930},
+    {nombre: "leche", precio: 4000},
+    {nombre: "queso", precio: 5000},
+    {nombre: "aceite", precio: 3500},
+    {nombre: "vinagre", precio: 2200}
+    ])
+
+//creamos los 10 mensajes
+db.mensajes.insert([
+    {autor: "maria", texto: "que caro todo"}, 
+    {autor: "carlos", texto: "a donde vamos a parar...."}, 
+    {autor: "juan", texto: "todo culpa de los politicos"},
+    {autor: "maria", texto: "los dueños se quieren hacer multimilllonarios vendiendo queso"}, 
+    {autor: "silvia", texto: "estos precios son una falta de respesto"}, 
+    {autor: "dueño", texto: "si no le gusta puede comprar en otro lado"},     
+    {autor: "marta", texto: "claro que si vamos a ir a su casa a romperle todo con estos precios no se puede vivir"}, 
+    {autor: "programador", texto: "disculpa pero te tuve que modificar los precios por que tengo que presentar un desafio en coderhouse"}, 
+    {autor: "dueño", texto: "Noooo actualizame todo me voy afundir con estos precios"},
+    {autor: "programador", texto: "dale si me aprueban te los cambio"}
+    ])  
+
+//listamos los articulos en cada coleccion
+db.productos.find()
+db.mensajes.find()    
+     
+//contamos la cantidad de documentos en cada coleccion
+db.productos.estimatedDocumentCount()
+db.mensajes.estimatedDocumentCount()
+
+//sumamos 1 articulo a productos
+db.productos.insert({nombre: "jamon", precio: 1050})
+
+//consultamos 1 producto por nombre
+db.productos.find({nombre: "pizza"})
+//consultamos productos menores a 1000
+db.productos.find({precio: {$lt: 1000}})
+//listamos productos entre 1000 a 3000
+db.productos.find({ $and: [ { precio: {$gte: 1000} } , { precio: {$lte: 3000} }]})  
+//listar productos mayores a 3000
+db.productos.find({precio: {$gt: 3000}})
+//traer el 3er producto mas barato
+db.productos.find({}, {"nombre": 1, "_id": 0}).skip(2).limit(1).sort({precio: 1})
+//actualizar todos los productos agregando campo stock y seteandolo a 100
+db.productos.updateMany({}, {$set: {"stock": 100}})
+//actualizar stock a 0 de todos los articulos sean mayores a 4000 
+db.productos.updateMany({precio: {$gt: 4000} }, {$set: {"stock": 0}}) 
+//borrar los articulos menores a 1000
+db.productos.deleteMany({precio: {$lt: 1000} }) 
+
+//creamos el usuario
+db.createUser(
+    {
+        user: "pepe",
+        pwd: "asd456",
+        roles: [ 
+            {role: "read", db: "ecommerce"}
+        ]
+    }
+)
+
