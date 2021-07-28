@@ -1,0 +1,7 @@
+{
+    "PORT": 8080,
+    
+    "MONGO_URL_LOCAL": "mongodb://localhost:27017/desafio-23", 
+    
+    "MONGO_URL":"mongodb://root:coderoot@cluster0-shard-00-00.om0mm.mongodb.net:27017,cluster0-shard-00-01.om0mm.mongodb.net:27017,cluster0-shard-00-02.om0mm.mongodb.net:27017/desafioNormalizr?replicaSet=atlas-14kjxl-shard-0&ssl=true&authSource=admin"
+}

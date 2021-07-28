@@ -1,0 +1,17 @@
+{
+   "entities": {
+      "articles": {
+         "1": {
+            "autor": "javierhfalk@gmail.com",
+            "nombre": "Javier",
+            "apellido": "Falk",
+            "edad": "36",
+            "avatar": "https://3.bp.blogspot.com/-oE51kbD3BZA/ToOSaJD8vYI/AAAAAAAAAvM/ZBweqF30oRA/s400/cazagif.gif",
+            "alias": "Xavi",
+            "texto": "ultimo intento",
+            "id": 1
+         }
+      }
+   },
+   "result": 1
+}
