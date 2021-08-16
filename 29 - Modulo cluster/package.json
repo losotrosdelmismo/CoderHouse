@@ -1,0 +1,32 @@
+{
+  "name": "ejemplo-servidor-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js 1009277203145326 107382de6eacda7e6d2280c463513cc0 8080",
+    "forever": "forever -w ./src/server.js",
+    "pm2-fork": "pm2 start ./src/server.js --name='server1' --watch -- -forkPORT", 
+    "pm2-cluster": "pm2 start ./src/server.js --name='server1' --watch -i max -- PORT",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "knex": "^0.95.7",
+    "mongoose": "^5.13.3",
+    "mysql": "^2.18.1",
+    "passport-facebook": "^3.0.0",
+    "socket.io": "^4.1.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
