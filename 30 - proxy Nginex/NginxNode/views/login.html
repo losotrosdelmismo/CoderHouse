@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+
+      <div class="container my-5">
+
+        <h1>LOGIN</h1>
+        <br>
+        <form class="form" role="form" action="/login" method="post" autocomplete="off">
+
+          <div class="form-group">
+              <input name='username' placeholder="Nombre" class="form-control" type="text" required>
+          </div>
+          <div class="form-group">
+              <input name='password' placeholder="Password" class="form-control" type="password" required>
+          </div>
+
+          <div class="form-group">
+            <input class="btn btn-success my-3" type="submit" value="Login">
+          </div>
+        </form>
+
+        <hr>
+        <div class="text-center"></div>
+          <button class="btn btn-success my-3" onclick="goSignup()">SIGNUP</button>
+        </div>
+
+      </div>
+  </div>
+
+  <script>
+    function redireccionar(pagina) {
+        location.href = pagina;
+    } 
+
+    function goSignup() {
+      redireccionar('/signup');
+    }
+  </script>
+
+<div class="container mt-3">
+  <div class="jumbotron">
+      <h1 style="color:blue;">Ingrese datos</h1>
+      <br>
+
+      <form onsubmit="addProducto()">
+
+          <div class="form-group">
+              <label for="title"><b>title:</b></label>
+              <input id="title" class="form-control" type="text" name="title">
+          </div>
+          <div class="form-group">
+              <label for="price"><b>price:</b></label>
+              <input id="price" class="form-control" type="text" name="price">
+          </div>
+          <div class="form-group">
+              <label for="thumbnail"><b>thumbnail:</b></label>
+              <input id="thumbnail" class="form-control" type="text" name="thumbnail">
+          </div>
+
+
+          <button class="btn btn-success mt-3 mb-5">Enviar</button>
+      </form>
+  </div>
+</div>
+
+
+<div class="jumbotron tabla">
+<h1>Vista de Productos</h1>
+<br>
+
+
+<div class="table-responsive">
+  <table class="table table-dark">
+      <tr><th>Nombre</th><th>Precio</th><th>Foto</th><th>Actualizado</th></tr>
+      
+          
+      
+  </table>
+</div>
+
+
+<div class="Chat">
+
+<h1>Chat</h1>
+
+<div id="mensajes"></div>
+
+<form class="form-inline" onsubmit="return addMensajes(this)" >
+<input type="text" id="userName" placeholder="ingrese su mail @">
+<input type="text" id="texto" placeholder="Contanos algo">
+<input type="submit" value="Enviar">
+</form>  
+
+</div>
+
+
+
+</body>
+
+</html>
+
