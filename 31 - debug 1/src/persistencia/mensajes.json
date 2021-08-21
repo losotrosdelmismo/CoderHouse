@@ -1,0 +1,17 @@
+{
+   "entities": {
+      "articles": {
+         "16": {
+            "autor": "javierhfalk@gmail.com",
+            "nombre": "superadmin",
+            "apellido": "sadasd",
+            "edad": "3",
+            "avatar": "https://pbs.twimg.com/profile_images/3407042750/837d8b1a03bd09fcc7e71cd664101c23_400x400.jpeg",
+            "alias": "Xavi",
+            "texto": "probando",
+            "id": 16
+         }
+      }
+   },
+   "result": 16
+}
