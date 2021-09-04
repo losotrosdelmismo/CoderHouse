@@ -1,0 +1,16 @@
+{
+    "PORT": 8081,
+    
+    "MONGO_URL_LOCAL": "mongodb://localhost:27017/Segunda-Entrega-Base-LocalHost", 
+    
+    "MONGO_URL_EN_MONGO_ATLAS":"mongodb://root:coderoot@cluster0-shard-00-00.om0mm.mongodb.net:27017,cluster0-shard-00-01.om0mm.mongodb.net:27017,cluster0-shard-00-02.om0mm.mongodb.net:27017/desafio-26?replicaSet=atlas-14kjxl-shard-0&ssl=true&authSource=admin",
+
+    "persistencia": "mongo",
+
+    "tiempoCookie": 30000,
+
+    "URL_BASE_DE_DATOS": "mongodb://root:coderoot@cluster0-shard-00-00.om0mm.mongodb.net:27017,cluster0-shard-00-01.om0mm.mongodb.net:27017,cluster0-shard-00-02.om0mm.mongodb.net:27017/desafio-26?replicaSet=atlas-14kjxl-shard-0&ssl=true&authSource=admin",
+
+    "VERSION" : "v7.1.2.6.5"
+    
+}
