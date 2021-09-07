@@ -1,0 +1,10 @@
+{
+    "PORT": 8080,
+    
+    "MONGO_URL_LOCAL": "mongodb://localhost:27017/Segunda-Entrega-Base-LocalHost", 
+    
+    "MONGO_URL_EN_MONGO_ATLAS":"mongodb://root:coderoot@cluster0-shard-00-00.om0mm.mongodb.net:27017,cluster0-shard-00-01.om0mm.mongodb.net:27017,cluster0-shard-00-02.om0mm.mongodb.net:27017/Segunda-Entrega-Base-MongoATLAS?replicaSet=atlas-14kjxl-shard-0&ssl=true&authSource=admin",
+
+    "persistencia": "mongo"
+    
+}
