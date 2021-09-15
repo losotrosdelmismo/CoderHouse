@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+    <title>3era entrega final</title>
+</head>
+<body>   
+    <div class="navbar navbar-light bg-primary">
+        <div class="col">
+        <h3>USUARIO LOGUEADO!!</h3> <hr> <span></span> <button class="btn btn-danger" onclick="logout()">Salir</button> <hr>
+        <div class="user"></div>
+        </div>
+    </div>    
+        <style>
+            .table td, .table th {
+                vertical-align: middle;
+            }
+            h1 {
+                color: blue;
+            }
+            hr {
+                background-color: #ddd;
+            }
+            .jumbotron {
+                min-height: 100vh;
+            }
+            strong{
+                color: blue;
+                margin-right: 10px;
+            }
+            p{
+                margin-right: 8px;
+            }
+            .brown{
+                color: brown;
+            }
+            .green{
+                color: green;
+                font-style: italic;
+            }
+        
+        </style>        
+      <div class="row">
+        <div class="jumbotron tabla col-6">
+            <h1>Vista de Productos</h1>
+            <br>      
+            
+                <div class="table-responsive">
+                    <table class="table table-dark">
+                        
+                    </table>
+                </div>
+            
+                <h3 class="alert alert-warning">No se encontraron productos</h3>
+            
+        </div>
+        <div class="carrito col-6">
+            
+        </div>
+    </div>
+        
+        <div class="Chat">
+        
+            <h1>Chat</h1>
+            
+            <div id="mensajes"></div>
+        
+            <form class="form-inline" onsubmit="return addMensajes(this)" >
+            <input type="text" id="userName" placeholder="ingrese su mail @">
+            <input type="text" id="texto" placeholder="Contanos algo">
+            <input type="submit" value="Enviar">
+            </form>  
+        
+        </div>
+             
+     
+    
+    
+    <script>
+        function redireccionar(pagina) {
+        location.href = pagina;
+    }  
+    function logout() {        
+        redireccionar('/logout')
+    }
+    </script>
+</body>
+</html>

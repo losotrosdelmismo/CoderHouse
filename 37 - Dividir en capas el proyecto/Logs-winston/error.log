@@ -1,0 +1,98 @@
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log info 2","level":"info"}
+{"message":"127.0.0.1 - log warn 2","level":"warn"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"servidor escuchando en http://localhost:8080","level":"warn"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":"127.0.0.1 - log error 2","level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":1104,"messageTime":916,"messageSize":501,"response":"250 2.0.0 OK  1631209964 b15sm1799827qka.107 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<6f3f1ebb-2b72-5afe-09de-e58117658f7c@gmail.com>"},"level":"error"}
+{"code":"EENVELOPE","command":"API","level":"error"}
+{"code":"EENVELOPE","command":"API","level":"error"}
+{"code":"EENVELOPE","command":"API","level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":701,"messageTime":1054,"messageSize":528,"response":"250 2.0.0 OK  1631213232 v15sm1599370qta.82 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<ca5f5f9b-2f57-d9a5-a653-024670c78b18@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":858,"messageTime":650,"messageSize":240,"response":"250 2.0.0 OK  1631213708 y12sm1678254qtj.3 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<3ab1ab78-2a22-543a-ae1a-b0b5c33493e1@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":641,"messageTime":684,"messageSize":240,"response":"250 2.0.0 OK  1631213849 q10sm1965135qke.108 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<c95137c6-ee2e-724c-95bc-8a2e3466afaf@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":650,"messageTime":521,"messageSize":457,"response":"250 2.0.0 OK  1631213886 u22sm1941105qkj.123 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<a26167a5-1807-a04d-7f25-ad75d0482ffc@gmail.com>"},"level":"error"}
+{"message":"usuario ya existe","level":"error"}
+{"level":"error","message":"mensaje"}
+{"message":"error en signup","level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":618,"messageTime":636,"messageSize":467,"response":"250 2.0.0 OK  1631213930 t26sm1852002qkm.0 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<91250866-af02-f6da-1535-12b0fa217012@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":607,"messageTime":512,"messageSize":240,"response":"250 2.0.0 OK  1631214036 c2sm1983974qkd.57 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<b5eee5e2-70b7-3f8f-abc4-f2a040d4835f@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":613,"messageTime":559,"messageSize":240,"response":"250 2.0.0 OK  1631214112 w20sm1968089qkj.116 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<3c534f50-b728-50e9-b61f-0314037c30cd@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":782,"messageTime":557,"messageSize":240,"response":"250 2.0.0 OK  1631214818 f28sm2003802qkk.10 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<6b42c036-935e-242e-2cbf-53fdcd719837@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":634,"messageTime":646,"messageSize":240,"response":"250 2.0.0 OK  1631214901 i6sm1555601qti.30 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<589c1a4f-893d-cd0d-2610-38343a4ab9f9@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":648,"messageTime":558,"messageSize":240,"response":"250 2.0.0 OK  1631214951 x10sm1639133qto.41 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<424d699e-6075-b415-07d7-992bbd18d2da@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":616,"messageTime":546,"messageSize":240,"response":"250 2.0.0 OK  1631214977 m16sm1889351qka.84 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<b5312a7b-e3dc-3bad-e911-a61729b3ac14@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":591,"messageTime":529,"messageSize":240,"response":"250 2.0.0 OK  1631215015 y18sm1974839qkp.73 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<11cd5158-52db-b629-d7b3-e4bfd4fac22a@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":619,"messageTime":520,"messageSize":240,"response":"250 2.0.0 OK  1631215137 g5sm1950337qkl.48 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<512f9ed7-81d4-3eed-2ade-18f7fa4d566e@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":635,"messageTime":622,"messageSize":293,"response":"250 2.0.0 OK  1631215345 k10sm1721275qth.44 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<5ac53a3a-1038-a771-406e-729ca108f791@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":576,"messageTime":488,"messageSize":293,"response":"250 2.0.0 OK  1631215490 207sm2028197qkh.45 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<03b03921-4924-b3e6-c103-780591457510@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":678,"messageTime":518,"messageSize":293,"response":"250 2.0.0 OK  1631215523 s7sm2018247qkp.18 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<82da71d4-f00f-4fb5-7cd6-996085ad386d@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":689,"messageTime":526,"messageSize":293,"response":"250 2.0.0 OK  1631215551 t188sm2044826qkf.22 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<481a1e5b-ae4a-c45a-4c3b-774affbdbb8c@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":630,"messageTime":571,"messageSize":293,"response":"250 2.0.0 OK  1631215576 10sm1850518qtu.66 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<6af921fb-7072-6747-f0f3-a48a6f6fc699@gmail.com>"},"level":"error"}
+{"message":"user NO logueado","level":"error"}
+{"message":"user NO logueado","level":"error"}
+{"level":"error","message":"usuario no encontrado con el nombre:"}
+{"level":"error","message":"mensaje"}
+{"message":"error en login","level":"error"}
+{"message":"user NO logueado","level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":734,"messageTime":756,"messageSize":587,"response":"250 2.0.0 OK  1631216824 c75sm612137oob.47 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<7e636cf6-c0b5-29a0-16d0-015f3db3e353@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":659,"messageTime":1346,"messageSize":1363,"response":"250 2.0.0 OK  1631216867 a4sm689941otv.49 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<7eb13e08-e37b-2627-6a9c-956102bf5584@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":700,"messageTime":600,"messageSize":617,"response":"250 2.0.0 OK  1631217227 c7sm678456otl.30 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<ce6bf768-f884-ab57-4e1b-ae476919dfed@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":814,"messageTime":635,"messageSize":1122,"response":"250 2.0.0 OK  1631217332 l16sm684694ota.55 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<255d0315-30d2-23f5-c276-f7afef2c260a@gmail.com>"},"level":"error"}
+{"message":{"accepted":["javierhfalk@gmail.com"],"rejected":[],"envelopeTime":685,"messageTime":714,"messageSize":628,"response":"250 2.0.0 OK  1631217654 s7sm632111ook.8 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["javierhfalk@gmail.com"]},"messageId":"<41b4378d-c38b-85d4-77bd-0ae7a89797fd@gmail.com>"},"level":"error"}
+{"level":"error","message":"usuario no encontrado con el nombre:"}
+{"level":"error","message":"mensaje"}
+{"message":"error en login","level":"error"}
+{"level":"error","message":"usuario no encontrado con el nombre:"}
+{"level":"error","message":"mensaje"}
+{"message":"error en login","level":"error"}
+{"message":"error en login","level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":856,"messageTime":921,"messageSize":913,"response":"250 2.0.0 OK  1631222407 g12sm1818613qtq.92 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<6187b6c0-e467-95f4-bba3-945c1d923a5e@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":613,"messageTime":646,"messageSize":617,"response":"250 2.0.0 OK  1631222439 g19sm2260420qki.58 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<62fef5f1-3a5b-e883-80ec-f261b81c60fe@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":638,"messageTime":602,"messageSize":563,"response":"250 2.0.0 OK  1631222502 s18sm1907495qtn.46 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<1f294d7a-db40-8865-106d-64a83fbea6b7@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":646,"messageTime":607,"messageSize":441,"response":"250 2.0.0 OK  1631222986 d78sm2189620qkg.92 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<12680141-3159-0d70-f5ce-f99a96b6cd22@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":597,"messageTime":605,"messageSize":442,"response":"250 2.0.0 OK  1631223082 69sm2461109qke.55 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<0271afb0-2212-9800-71f4-4d8935ce8c52@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":577,"messageTime":527,"messageSize":438,"response":"250 2.0.0 OK  1631223118 g12sm2128364qkm.112 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<8c0fb34b-b818-f862-eb8f-9c56753e3ee7@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":611,"messageTime":539,"messageSize":441,"response":"250 2.0.0 OK  1631223158 k186sm2271253qkd.47 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<a2915bec-b1c5-1e6c-a441-7ec52773b481@gmail.com>"},"level":"error"}
+{"message":"Error subiendo archivo","level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":579,"messageTime":505,"messageSize":443,"response":"250 2.0.0 OK  1631223195 n20sm2272780qkk.135 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<fbc7bb8b-86da-e300-8cbd-7ab82cd49f21@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":609,"messageTime":626,"messageSize":448,"response":"250 2.0.0 OK  1631223252 y15sm2152992qko.78 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<72192420-ceb0-f38b-bb94-7a7bb69346c7@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":628,"messageTime":504,"messageSize":450,"response":"250 2.0.0 OK  1631223293 s8sm1832834qta.48 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<a45597c8-6c95-2e1d-db12-9eaf35413eb1@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":710,"messageTime":539,"messageSize":449,"response":"250 2.0.0 OK  1631223375 g2sm2168454qki.42 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<f47f608e-2937-4cfc-2aac-a6b580110d58@gmail.com>"},"level":"error"}
+{"message":"usuario ya existe","level":"error"}
+{"level":"error","message":"mensaje"}
+{"message":"error en signup","level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":593,"messageTime":504,"messageSize":459,"response":"250 2.0.0 OK  1631223582 w19sm2147768qki.21 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<0fbe7676-4019-a6c3-9856-e3fb0f4bf653@gmail.com>"},"level":"error"}
+{"message":"contraseña invalida","level":"error"}
+{"level":"error","message":"mensaje"}
+{"message":"error en login","level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":586,"messageTime":693,"messageSize":563,"response":"250 2.0.0 OK  1631223850 c15sm2299960qka.46 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<a0a67648-d0d2-0a13-0a37-df2b954bdf25@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":577,"messageTime":645,"messageSize":563,"response":"250 2.0.0 OK  1631224077 b5sm1981402qtr.11 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<3439aac3-7810-8225-17d0-512e772ba899@gmail.com>"},"level":"error"}
+{"message":"usuario ya existe","level":"error"}
+{"level":"error","message":"mensaje"}
+{"message":"error en signup","level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":721,"messageTime":515,"messageSize":449,"response":"250 2.0.0 OK  1631224735 c193sm2392597qkg.120 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<b643688b-f929-7437-c6d7-8d6f24f62a42@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":657,"messageTime":940,"messageSize":448,"response":"250 2.0.0 OK  1631224883 e25sm2255550qka.83 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<29da237a-70fe-4ba5-2ef0-ef718b9dbcc9@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":778,"messageTime":612,"messageSize":563,"response":"250 2.0.0 OK  1631227554 i14sm1994047qtx.64 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<0338a6b2-e31f-3863-ddea-1000cb92f58d@gmail.com>"},"level":"error"}
+{"message":{"accepted":["losotrosdelmismo@gmail.com"],"rejected":[],"envelopeTime":729,"messageTime":572,"messageSize":477,"response":"250 2.0.0 OK  1631228023 q10sm2408146qke.108 - gsmtp","envelope":{"from":"losotrosdelmismo@gmail.com","to":["losotrosdelmismo@gmail.com"]},"messageId":"<82107352-7ac0-997d-596a-fc679ea11a9c@gmail.com>"},"level":"error"}
