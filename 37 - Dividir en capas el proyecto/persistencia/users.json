@@ -1,0 +1,27 @@
+[
+	{
+		"_id": "61354ee056f27032ac487e6d",
+		"username": "j",
+		"password": "123",
+		"mail": "losotrosdelmismo@gmail.com",
+		"direccion": "estoy en CABA",
+		"edad": 36,
+		"telefono": "1140832701",
+		"foto": "URL con foto?",
+		"rol": true,
+		"id": 1,
+		"__v": 0
+	},
+	{
+		"_id": "61396071a075c7525435d533",
+		"username": "1",
+		"password": "$2b$10$.F1bm7B9okkmSY37ylq9H.7ZgaV3euVqGyrIbKGKcFueyn1q3v/yC",
+		"mail": "losotrosdelmismo@gmail.com",
+		"direccion": "1",
+		"edad": 1,
+		"telefono": 1140832701,
+		"foto": "chila.jpg", 
+		"id": 2,
+		"__v": 0 
+	}
+]
